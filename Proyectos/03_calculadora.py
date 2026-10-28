@@ -1,0 +1,11 @@
+num1=input("introduce primer numero: ")
+num2=input("introduce segundo numero: ")
+#convertir texto en numero
+num1=float(num1)
+num2=int(num2)
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+print(num1/num2)
+print(f"la suma de {num1} y {num2} es {suma} ")
+print(f"la resta de {num1} y {num2} es {num1-num2}")
